@@ -18,12 +18,13 @@ body {
     border: 5px solid black;
     border-radius: 20px;
     background-color: darkgrey;
-    margin-top: 20px;
+    margin-top: 30px;
+    padding-left: 30px;
 }
 
 .sconto {
     position: absolute;
-    left: 69%;
+    left: 72%;
     bottom: 83%;
     background-color: red;
     font-weight: bold;
@@ -32,19 +33,19 @@ body {
     padding: 10px;
 }
 
-.dislike:after {
+.like:after {
   content: "\02665";
   font-size: 40px;
 }
 
-.dislike:hover {
+.like:hover {
     color: darkred;
     cursor: pointer;
 }
 
 .articolo {
     height: 350px;
-    width: 28%;
+    width: 32%;
     position: relative;
     top: 30px;
     border: 3px solid black;
@@ -55,9 +56,22 @@ body {
 }
 
 .primo {
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pirelli.com%2Ftyre%2Fde%2Fde%2Fnews%2Ffiles%2F2017%2F01%2Findex.png&f=1&nofb=1");
-    background-size: contain;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.dunlop.eu%2Fcontent%2Fdam%2Fgydu%2Fproducts%2FSPTMAXXRT_NORMAL.png.transform%2Fsmall-mobile%2Fimage.png&f=1&nofb=1");
+    background-size: auto 300px;
     background-repeat: no-repeat;
-    background-position: center;
-    left: 30px;
+    background-position: top;
+}
+
+.secondo {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.goodyear.eu%2Fit_it%2Fimages%2FEG-Performance-Main_tcm2147-136293.png&f=1&nofb=1");
+    background-size: auto 300px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.terzo {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblobs.generaltire-tyres.com%2Fwww8%2Fservlet%2Fblob%2F1050048%2F790e8bf353e83adf5596138ba70bdfc8%2Faltimax-as-365-data.png&f=1&nofb=1");
+    background-size: auto 300px;
+    background-repeat: no-repeat;
+    background-position: top;
 }
