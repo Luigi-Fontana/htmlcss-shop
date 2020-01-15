@@ -3,3 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-image: url("https://get.wallhere.com/photo/black-monochrome-dark-pattern-metal-texture-circle-grid-material-shape-design-line-mesh-circles-textile-black-and-white-monochrome-photography-font-flooring-699679.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    height: 800px;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: darkgrey;
+    margin-top: 20px;
+}
