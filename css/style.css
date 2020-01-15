@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("https://get.wallhere.com/photo/black-monochrome-dark-pattern-metal-texture-circle-grid-material-shape-design-line-mesh-circles-textile-black-and-white-monochrome-photography-font-flooring-699679.jpg");
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages4.alphacoders.com%2F741%2Fthumb-1920-74124.jpg&f=1&nofb=1");
     background-repeat: repeat-y;
     background-size: cover;
     width: 70%;
@@ -14,12 +14,14 @@ body {
 
 .container {
     width: 100%;
-    height: 800px;
+    height: 780px;
     border: 5px solid black;
     border-radius: 20px;
-    background-color: darkgrey;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Falexcheal.files.wordpress.com%2F2017%2F09%2Fbumpy-black-plastic-texture.jpg&f=1&nofb=1");
+    background-size: contain;
     margin-top: 30px;
     padding-left: 30px;
+    position: relative;
 }
 
 .sconto {
@@ -50,28 +52,48 @@ body {
     top: 30px;
     border: 3px solid black;
     display: inline-block;
-    background-color: grey;
+    background-color: rgb(255, 255, 255, 0.5);
     text-align: center;
     padding-top: 290px;
+    background-size: auto 300px;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 .primo {
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.dunlop.eu%2Fcontent%2Fdam%2Fgydu%2Fproducts%2FSPTMAXXRT_NORMAL.png.transform%2Fsmall-mobile%2Fimage.png&f=1&nofb=1");
-    background-size: auto 300px;
-    background-repeat: no-repeat;
-    background-position: top;
 }
 
 .secondo {
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.goodyear.eu%2Fit_it%2Fimages%2FEG-Performance-Main_tcm2147-136293.png&f=1&nofb=1");
-    background-size: auto 300px;
-    background-repeat: no-repeat;
-    background-position: top;
 }
 
 .terzo {
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblobs.generaltire-tyres.com%2Fwww8%2Fservlet%2Fblob%2F1050048%2F790e8bf353e83adf5596138ba70bdfc8%2Faltimax-as-365-data.png&f=1&nofb=1");
-    background-size: auto 300px;
-    background-repeat: no-repeat;
-    background-position: top;
+}
+
+.quarto {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.gomme-usate.com%2Fgomme_usate_img%2FVarie%2F3076670337SAVAIntensaSUV_tcm2181-112271.png&f=1&nofb=1");
+    margin-top: 5px;
+}
+
+.quinto {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.dunlop.eu%2Fcontent%2Fdam%2Fgydu%2Fproducts%2FWINSPT5_NORMAL.png.transform%2Fsmall-mobile%2Fimage.png&f=1&nofb=1");
+}
+
+.sesto {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblobs.generaltire-tyres.com%2Fwww8%2Fservlet%2Fblob%2F1299756%2Fc00e0b1804317476e990cec0a918e80e%2Faltimax-nordic-data.png&f=1&nofb=1");
+}
+
+.prezzo {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.pieno {
+    text-decoration: line-through;
+}
+
+.scontato:before {
+    content: " - ";
 }
