@@ -1,1 +1,1 @@
-# htmlcss-shop
+Secondo Esercizio Corso Boolean
