@@ -8,92 +8,54 @@ body {
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages4.alphacoders.com%2F741%2Fthumb-1920-74124.jpg&f=1&nofb=1");
     background-repeat: repeat-y;
     background-size: cover;
-    width: 70%;
-    margin: 0 auto;
 }
 
 .container {
-    width: 100%;
-    height: 780px;
+    width: 700px;
     border: 5px solid black;
     border-radius: 20px;
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Falexcheal.files.wordpress.com%2F2017%2F09%2Fbumpy-black-plastic-texture.jpg&f=1&nofb=1");
-    background-size: contain;
-    margin-top: 30px;
-    padding-left: 30px;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.prodotto {
+    display: inline-block;
     position: relative;
+    border: 3px double darkgrey;
+    border-radius: 5px;
+    background-color: rgba(211,211,211,0.5);
+}
+
+.prodotto img {
+    width: 200px;
+    height: 250px;
+    object-fit: contain;
 }
 
 .sconto {
     position: absolute;
-    left: 72%;
-    bottom: 83%;
-    background-color: red;
+    background-color: lightgreen;
+    top: 0;
+    right: 0;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 50%;
-    padding: 10px;
+    padding: 5px;
 }
 
-.like:after {
-  content: "\02665";
-  font-size: 40px;
+.cuore {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: red;
+    font-size: 30px;
+    width: 100%;
+    display: none;
 }
 
-.like:hover {
-    color: darkred;
+.prodotto:hover .cuore{
+    display: block;
     cursor: pointer;
-}
-
-.articolo {
-    height: 350px;
-    width: 32%;
-    position: relative;
-    top: 30px;
-    border: 3px solid black;
-    display: inline-block;
-    background-color: rgb(255, 255, 255, 0.5);
-    text-align: center;
-    padding-top: 290px;
-    background-size: auto 300px;
-    background-repeat: no-repeat;
-    background-position: top;
-}
-
-.primo {
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.dunlop.eu%2Fcontent%2Fdam%2Fgydu%2Fproducts%2FSPTMAXXRT_NORMAL.png.transform%2Fsmall-mobile%2Fimage.png&f=1&nofb=1");
-}
-
-.secondo {
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.goodyear.eu%2Fit_it%2Fimages%2FEG-Performance-Main_tcm2147-136293.png&f=1&nofb=1");
-}
-
-.terzo {
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblobs.generaltire-tyres.com%2Fwww8%2Fservlet%2Fblob%2F1050048%2F790e8bf353e83adf5596138ba70bdfc8%2Faltimax-as-365-data.png&f=1&nofb=1");
-}
-
-.quarto {
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.gomme-usate.com%2Fgomme_usate_img%2FVarie%2F3076670337SAVAIntensaSUV_tcm2181-112271.png&f=1&nofb=1");
-    margin-top: 5px;
-}
-
-.quinto {
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.dunlop.eu%2Fcontent%2Fdam%2Fgydu%2Fproducts%2FWINSPT5_NORMAL.png.transform%2Fsmall-mobile%2Fimage.png&f=1&nofb=1");
-}
-
-.sesto {
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblobs.generaltire-tyres.com%2Fwww8%2Fservlet%2Fblob%2F1299756%2Fc00e0b1804317476e990cec0a918e80e%2Faltimax-nordic-data.png&f=1&nofb=1");
-}
-
-.prezzo {
-    font-weight: bold;
-    font-size: 25px;
-}
-
-.pieno {
-    text-decoration: line-through;
-}
-
-.scontato:before {
-    content: " - ";
 }
